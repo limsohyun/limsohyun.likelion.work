@@ -1,0 +1,33 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+        <style>
+        h2,h4,pre{            font-family: 'Jua', sans-serif;}
+        a{color:coral;    font-family: 'Jua', sans-serif;}
+        .all{text-align: center;}
+            </style>
+</head>
+<body>
+    <div class="all">
+<img src="{%static 'DDW_Lion.png'%}" height="100" width="100">
+<h2>자기소개</h2>
+<h4>안녕하세요.동덕여자대학교에 재학중인 2학년 컴퓨터학과 임소현입니다.</h4>
+<h2>IT 서비스 소개</h2>
+<a href="{%url 'preview1'%}">preview1</a>
+<a href="{%url 'preview2'%}">preview2</a>
+<h4>
+    <pre>
+    각 학과의 특성에 관련된 정보만을 찾을 수 있는 사이트를 만들고 싶습니다.
+    하루에도 몇십 개씩 대외활동이나 공모전이 올라옵니다. 
+    그중에서 손쉽게 내가 원하는 대외활동이나 공모전을 찾을 수 있다면 정말 유용하게 쓰일 거라 생각합니다.
+    더 나아가 과 특성에 맞는 sns를 추천해주는 서비스도 제공한다면 더 좋을 것입니다.
+    sns사용자는 자신의 sns을 올려 홍보효과를 볼 수도 있을 것입니다.
+    </pre>
+
+</h4>
+</div>
+</body>
+</html>
