@@ -1,0 +1,47 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Preview</title>
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+<link href="/docs/4.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+       pre,.container{            font-family: 'Jua', sans-serif;}
+       a{color:coral;}
+       .all{text-align: center;}
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+
+    <div class="container d-flex justify-content-between">
+      <a href="/" class="m">
+        <svg xmlns="{%url 'home'%}" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="mr-2" viewBox="0 0 24 24" focusable="false"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <strong >홈으로</strong>
+      </a>
+    </div>
+</header>
+
+<main role="main">
+<div class="all">
+  <section class="text-center">
+    <div class="container">
+      <h1 class="jumbotron-heading">컴퓨터학과</h1>
+      <p class="lead text-muted">검색결과</p>
+    </div>
+  </section>
+<pre>
+  5.26-31 멋사 코딩 봉사자 모집<a href="#">지원하기</a>
+  6.1-5 LG 코딩 서포터즈 모집<a href="#">지원하기</a>
+  6.10-15 JA korea 코딩 봉사자 모집<a href="#">지원하기</a>
+  ...
+  </pre>
+
+</div>
+</main>
